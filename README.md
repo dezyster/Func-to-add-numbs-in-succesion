@@ -1,5 +1,6 @@
 # Func-to-add-numbs-in-succesion
 ...
+
 We want to create a function that will add numbers together when called in succession.
 
 add(1)(2); // returns 3
@@ -31,4 +32,5 @@ addTwo(3); // 5
 addTwo(3)(5); // 10
 
 We can assume any number being passed in will be valid whole number.
+
 '''
