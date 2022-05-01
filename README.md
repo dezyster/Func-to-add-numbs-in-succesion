@@ -1,4 +1,7 @@
 # Func-to-add-numbs-in-succesion
+
+My solution for task described below. Contains c++ and python version.
+
 ...
 
 We want to create a function that will add numbers together when called in succession.
