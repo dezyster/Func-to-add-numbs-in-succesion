@@ -1,17 +1,12 @@
 #include <iostream>
 
-using namespace std;
-
 class IntFunction
 {
     int m_numb;
 
 public:
-
-    IntFunction(int numb): m_numb{ numb }
-    {
-
-    }
+    IntFunction(int numb)
+        : m_numb{ numb }{}
 
     operator int()
     {
@@ -44,17 +39,17 @@ IntFunction add(int numb)
 
 int main()
 {
-    cout << add(1) << endl;
+    std::cout << add(1) << std::endl;
 
-    cout << add(1)(2)(3)(4)(5)(6) << endl;
+    std::cout << add(1)(2)(3)(4)(5)(6) << std::endl;
 
     auto addTwo = add(2);
 
-    cout << addTwo << endl;
+    std::cout << addTwo << std::endl;
 
-    cout << addTwo + 3 << endl;
+    std::cout << addTwo + 3 << std::endl;
 
-    cout << addTwo(3)(5) << endl;
+    std::cout << addTwo(3)(5) << std::endl;
 
     return 0;
 }
